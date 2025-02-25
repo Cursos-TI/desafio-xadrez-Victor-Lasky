@@ -51,33 +51,35 @@ int main() {
     
     
     
-    int movimentocavalo=0;;//Definição do movimento do cavalo para baixo.
-         for(int cima=0,direita=0;cima<2&&direita<1;cima++,direita++){//Definição de variáveis do movimento do cavalo.
+       //Definição do movimento do cavalo para baixo.
+         for(int cima = 0,direita = 0;cima < 2 && direita < 1;cima++){//Definição de multiplas variáveis do movimento do cavalo.
+           int cima = 0;
             do{
-              
-               printf("Cima\n");//Imprime duas vezes para cima.
+             
+              printf("Cima.\n");//Imprime duas vezes para cima.
                
-              movimentocavalo++;
-            }while (movimentocavalo<2);
+              cima++;
+            }while (cima<2);
                 
-              printf("Direita\n");//Imprime uma vez para direita.
+              printf("Direita.\n");//Imprime uma vez para Direita.
+              direita++;
             }
         
     
-    int cima = 0;
-    while (cima<1){
-      int direita = 0;
-      while (direita<2){
-         if (direita==1)
-         direita++;
-         continue;
-      
-         printf("Direita.\n");
-         
-      }
-      printf("Cima.\n");
-      cima++;
-    }
+          //Movimento do bispo com loops aninhados.
+               int cima = 1;
+               while (cima < 2) {
+                  printf("Cima\n"); //O printf sobe algumas linhas, para ser impresso primeiro.
+                   cima++;
+                   int direita = 1;
+                   while (direita < 2) {
+                       printf("Direita\n"); //Imprime uma vez para Direita.
+                       direita++;
+                   }
+                   
+               }
+               
+           
     
     
     
