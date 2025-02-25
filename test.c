@@ -1,19 +1,19 @@
 #include <stdio.h>
 
+void recursivo(int numero){
+    if(numero > 0){
+        printf("%d\n", numero);
+
+        recursivo(numero - 1);
+    }
+}
+
 int main(){
 
-int i,j;
+    int quantidade = 10;
 
-    for(i=1;i<=5;i++){
-        for(j=1;j<=i;j++){
-             
-        }
-    }
-
-
-
-
-
+    printf("Contagem regressiva...");
+    recursivo(quantidade);
 
     return 0;
 }
