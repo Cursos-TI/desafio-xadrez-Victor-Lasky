@@ -78,39 +78,7 @@ int main() {
                    }
                    
                }
-               
-           
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //        int cima = 0;
-    //   do {
-    //      int direita = 0;
-    //   do{
-         
-    //     printf("Direita\n");
-     //    direita++;
-   //   }while(direita<1);
-     //    printf("Cima\n");
-     ///    cima++;
-     // }while(cima<1);
-          
 
-
-   
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
-
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
 
     return 0;
 }
